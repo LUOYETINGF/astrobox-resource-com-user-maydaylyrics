@@ -1,0 +1,42 @@
+{
+  "item": {
+    "id": "com.user.maydaylyrics",
+    "restype": "quick_app",
+    "name": "《随身歌词》",
+    "description": "操作方法：1，首先手环连接AstroBox，安装本软件，随后在手机上安装调试助手插件。\n2.在设备/应用界面刷新并连接手环，然后选中，刷新应用后选中，然后启动应用。\n3。在互联页面按照格式搜索，{\"type\":\"artist\",\"keyword\":\"周杰伦\"}为搜索歌手，把artist改成album搜专辑，改成song搜歌名。\n4，点击发送消息，正常情况手环会展示搜到的歌，点进去可查看歌词，并缓存到手环本地，继续搜索会覆盖，在\"更多功能\"里可以删除搜到的歌",
+    "preview": [
+      "media/31173.jpg",
+      "media/31180.jpg",
+      "media/31181.jpg",
+      "media/31182.jpg",
+      "media/31183.jpg"
+    ],
+    "icon": "media/31185.jpg",
+    "cover": "media/31184.jpg",
+    "author": [
+      {
+        "name": "LUOYETINGFENG",
+        "bindABAccount": true
+      },
+      {
+        "name": "落叶听枫",
+        "bindABAccount": true
+      }
+    ]
+  },
+  "links": [],
+  "downloads": {
+    "xmb9p": {
+      "version": "1.0.0",
+      "file_name": "downloads/com.user.maydaylyrics.release.1.0.0.rpk",
+      "versionCode": 1,
+      "updatelogs": [
+        {
+          "version": "1.0.0",
+          "content": "优化搜索逻辑，增加缓存，删除缓存功能"
+        }
+      ]
+    }
+  },
+  "ext": {}
+}
